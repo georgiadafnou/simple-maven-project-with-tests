@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('test') {
       steps {
-        bat 'C:\\Users\\georgiad\\Desktop\\New folder\\apache-maven-3.5.2\\bin\\mvn test'
+        bat '%M2_HOME%\\bin\\mvn test'
       }
     }
     stage('install') {
