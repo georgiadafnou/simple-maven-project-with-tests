@@ -8,7 +8,7 @@ pipeline {
     }
     stage('install') {
       steps {
-        bat 'C:\\Users\\georgiad\\Desktop\\New folder\\apache-maven-3.5.2\\bin\\mvn install'
+        bat '"C:\\Users\\georgiad\\Desktop\\New folder\\apache-maven-3.5.2\\bin\\mvn.cmd" install'
       }
     }
   }
